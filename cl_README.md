@@ -1,4 +1,4 @@
-\## Sistema de Cadastro de Pacientes (Java + MySQL)
+## Sistema de Cadastro de Pacientes (Java + MySQL)
 
 
 
@@ -12,7 +12,7 @@ Este projeto consiste em um sistema simples de cadastro de pacientes desenvolvid
 O sistema permite realizar operações básicas de CRUD (Create, Read, Update, Delete) em um banco de dados MySQL utilizando JDBC.
 
 A interface do sistema foi construída com swing, utilizando JOptionPane para a interação com o usuário e JTable para exibição dos
-dados cadastrados.
+dados cadastrados. Também foi utilizada estrutura DAO Pattern para o encapsulamento de acesso aos dados.
 
 ## 
 
@@ -44,6 +44,7 @@ clinica
 |-- Medicos.java
 |-- TabelaPacientes.java
 |-- Main.java
+
 
 clinicaDAO
 |-- pacienteDAO.java
@@ -93,4 +94,5 @@ jdbc:mysql://localhost:3306/clinica\_1
 
 
 ## Autor: Vinícius Cabral
+
 
